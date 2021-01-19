@@ -66,7 +66,7 @@ def no_vowels(input_string):
     """
     no_vowel_string = ""
     for element in input_string:
-        if element=='a' or element=='e' or element=='i' or element=='o' or element=='u':
+        if element=='a' or element=='A' or element=='e'or element=='E' or element=='i'or element=='I' or element=='o' or element=='O'or element=='u'or element=='U':
             continue
         else:
             no_vowel_string+=element
